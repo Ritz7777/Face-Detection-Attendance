@@ -12,13 +12,13 @@ firebase_admin.initialize_app(cred,{
 ref = db.reference('Students')
 
 data = {
-    "321654":
+   "456712":
         {
-            "name": "Murtaza Hassan",
-            "major": "Robotics",
-            "starting_year": 2017,
-            "total_attendance": 7,
-            "standing": "G",
+            "name": "Ritabrata Banerjee",
+            "major": "Web Dev",
+            "starting_year": 2021,
+            "total_attendance": 1,
+            "standing": "A",
             "year": 4,
             "last_attendance_time": "2022-12-11 00:54:34"
         },
