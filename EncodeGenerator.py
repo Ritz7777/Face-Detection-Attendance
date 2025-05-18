@@ -37,7 +37,7 @@ def findEncodings(imagesList):
 
     return encodeList
 
-print("Encoding Started ...")
+print("Encoding Started ....")
 encodeListKnown = findEncodings(imgList)
 encodeListKnownWithIds = [encodeListKnown,studentIds]
 print("Encoding Complete")
